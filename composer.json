@@ -1,0 +1,23 @@
+{
+    "name": "tencentcloud/facefusion",
+    "description": "TencentCloudApi php sdk facefusion",
+    "type": "library",
+    "homepage": "https://github.com/tencentcloud-sdk-php/facefusion",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "tencentcloudapi",
+            "email": "tencentcloudapi@tencent.com",
+            "homepage": "https://github.com/tencentcloud-sdk-php/facefusion",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "tencentcloud/common": "VERSION"
+    },
+    "autoload": {
+        "psr-4": {
+            "TencentCloud\\": "./src/TencentCloud"
+        }
+    }
+}
